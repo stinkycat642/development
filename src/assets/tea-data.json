@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Jasmine Tea",
+    "caffeine": 25,
+    "description": "Green tea base with strong floral accents.",
+    "price": 6.00,
+    "image": "images/jasmine.jpeg",
+    "blend": true,
+    "loose": true,
+    "base": "green"
+  },
+  {
+    "name": "Oolong Tea",
+    "caffeine": 35,
+    "description": "Oxidized between Green and Black; aromatic, flowery, fruity, savory, buttery, nutty, toasty, complex.",
+    "price": 3.00,
+    "image": "images/oolong.jpeg",
+    "blend": false,
+    "loose": false,
+    "base": "oolong"
+  },
+  {
+    "name": "Green Tea",
+    "caffeine": 25,
+    "description": "Lively, fresh, grassy, vegetal, nutty, marine, umami, bittersweet.",
+    "price": 3.00,
+    "image": "images/green.jpeg",
+    "blend": false,
+    "loose": false,
+    "base": "green"
+  },
+  {
+    "name": "Matcha Tea",
+    "caffeine": 25,
+    "description": "Loose stone-ground powdered Green Tea, a bit peculiar.",
+    "price": 5.00,
+    "image": "images/matcha.jpeg",
+    "blend": false,
+    "loose": true,
+    "base": "green"
+  },
+  
+  {
+    "name": "Sencha Tea",
+    "caffeine": 25,
+    "description": "Pure loose leaf Green Tea, grown in sunlight.",
+    "price": 7.00,
+    "image": "images/sencha.jpeg",
+    "blend": false,
+    "loose": true,
+    "base": "green"
+  },
+  {
+    "name": "Black Tea",
+    "caffeine": 50,
+    "description": "Rich, strong, full, robust, reddish-black.",
+    "price": 2.50,
+    "image": "images/black.jpeg",
+    "blend": false,
+    "loose": false,
+    "base": "black"
+  },
+  {
+    "name": "Earl Grey Tea",
+    "caffeine": 50,
+    "description": "Rich, strong, full, robust, reddish-black.",
+    "price": 4.00,
+    "image": "images/earl-grey.jpeg",
+    "blend": true,
+    "loose": false,
+    "base": "black"
+  },
+  {
+    "name": "Masala Chai",
+    "caffeine": 40,
+    "description": "Indian tea boiled in milk, with ginger, cardamon, and cinnamon; aromatic.",
+    "price": 5.00,
+    "image": "images/masala-chai.jpeg",
+    "blend": true,
+    "loose": true,
+    "base": "black"
+  },
+  {
+    "name": "Pu'erh Tea",
+    "caffeine": 80,
+    "description": "Smooth, mature, fermented tea traditionally produced in Yunnan Province",
+    "price": 6.00,
+    "image": "images/pu'erh.jpeg",
+    "blend": true,
+    "loose": true,
+    "base": "other"
+  },
+  {
+    "name": "White Tea",
+    "caffeine": 20,
+    "description": "Lighter, mellow, yellow-white drink.",
+    "price": 3.50,
+    "image": "images/white.jpeg",
+    "blend": false,
+    "loose": false,
+    "base": "white"
+  },
+  {
+    "name": "Chamomile Tea",
+    "caffeine": 0,
+    "description": "Calming, simple, and classic.",
+    "price": 3.00,
+    "image": "images/chamomile.jpeg",
+    "blend": false,
+    "loose": false,
+    "base": "herbal"
+  },
+  {
+    "name": "Sleepy Time Tea",
+    "caffeine": 0,
+    "description": "Ashwagandha, chamomile, lemongrass herbal mix; tranquility guaranteed.",
+    "price": 3.50,
+    "image": "images/ashwagandha.jpeg",
+    "blend": false,
+    "loose": false,
+    "base": "herbal"
+  }  
+]

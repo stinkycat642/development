@@ -1,5 +1,158 @@
 .App {
   text-align: center;
+  height: 100%;
+}
+
+.Border {
+  /* border: 0.7vh solid white; */
+  outline: white solid 1vh;
+  /* outline: 1px solid; use instead of border
+    margin-top: 1px;
+    margin-left: 1px; */
+}
+
+.NoMargin {
+  margin: 0;
+}
+
+.Pad {
+  padding: 2vh 2vh;
+}
+
+.PadSmall {
+  padding: 1vh 1vh;
+}
+/*  */
+
+.Jumbotron {
+  font-size: larger;
+  padding: 2vh 0;
+  background-color: rgba(150, 255, 175, 0.415);
+}
+
+.Options {
+  padding: 2vh 0;
+  background-color: rgb(255, 248, 255);
+}
+
+.Filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  padding: 2vh 10vw;
+}
+
+.Sorting {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.PriceSort {
+  margin: 28px 28px;
+}
+
+.Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: stretch;
+  padding-top: 3.5vh;
+  padding-bottom: 3.5vh;
+  padding-left: 2vh;
+  padding-right: 2.7vh;
+
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.Display {
+  background-color: palegoldenrod;
+  flex-grow: 5;
+  flex-basis: 5;
+}
+
+.Cart {
+  background-color: aliceblue;
+  flex-shrink: 5;
+  flex-basis: auto;
+  width: 25%;
+  min-width: 17%;
+  /* padding-bottom: 6vh; */
+}
+
+.ContainerVert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* --- */
+
+
+.Item {
+  padding: 2vh 2vh;
+  width: 33%;
+  background: rgb(249, 242, 230);
+  /* border: 10px; */
+  /* border:white; */
+  /* border-color: white; */
+
+  /* outline: 1px solid;
+    margin-top: 1px;
+    margin-left: 1px; */
+}
+
+.CartItem {
+  padding: 2vh 2vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.ContentBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: stretch; */
+  /* flex-grow: ; */
+}
+
+.Image {
+  width: 20vh;
+  height: auto;
+  padding-left: 2vh;
+  flex-grow: 3;
+  /* flex-basis: auto; */
+}
+
+.PriceBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  background-color: palegoldenrod;
+  align-self: center;
+  justify-self: center;
+  padding: 0 2vh;
+  padding-top: 1.3vh;
+
+  /* background-color: aliceblue; */
+  /* align-items: center; */
+  /* flex-shrink: 3; */
+
+  padding-bottom: 15vh;
 }
 
 .App-logo {
