@@ -13,6 +13,7 @@ export default function DisplayItem(props) {
       <div className="ContentBox">
         <div className="PriceBox">
           <h3>{item.price}$</h3>
+          <h5>Caffeine: {item.caffeine}mg</h5>
           <h5>{item.loose ? "Loose Leaf" : "Bagged"} </h5>
           <h5>{item.blend ? "Blend of Teas" : "Pure Tea"} </h5>
           <h5>
